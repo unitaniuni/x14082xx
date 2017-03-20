@@ -1,0 +1,97 @@
+@charset "utf-8";
+html,body{
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","Osaka", Verdana, "ＭＳ Ｐゴシック", "MS P Gothic" Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	max-width:750px;
+}
+img{
+	border: none;
+	box-sizing: border-box;
+}
+/*--home--*/
+.home{
+	width: 241px;
+	height:159px;
+	float:left;
+}
+.home a{
+	display: block;
+	width: 241px;
+	height:159px;
+	background: url("../images/home.jpg") no-repeat;
+}
+.home a:hover {
+	background: urL("../images/homeon.gif") no-repeat;
+}
+/*--contact--*/
+.contact{
+	width: 241px;
+	height:159px;
+	float:right;
+}
+.contact a{
+	display: block;
+	width: 240px;
+	height:160px;
+	background: url("../images/contact.jpg") no-repeat;
+}
+.contact a:hover {
+
+	background: urL("../images/contacton.gif") no-repeat;
+}
+/*--profile--*/
+.profile{
+	width: 241px;
+	height:159px;
+	float:left;
+}
+.profile a{
+	display: block;
+	width: 241px;
+	height:160px;
+	background: url("../images/profile.jpg") no-repeat;
+}
+.profile a:hover {
+	background: urL("../images/profileon.gif") no-repeat;
+}
+/*--gallery--*/
+.gallery{
+	width: 241px;
+	height:159px;
+	float:left;
+}
+.gallery a{
+	display: block;
+	width: 241px;
+	height:159px;
+	background: url("../images/gallery.jpg") no-repeat;
+}
+.gallery a:hover {
+	background: urL("../images/galleryon.gif") no-repeat;
+}
+
+
+
+
+.gallery{
+	float:right;	
+}
+
+.profile{
+	float:left;
+}
+.contact{
+	float:right;
+}
+
+
+.mainimg{
+	width:250px;
+	height:170px;
+	clear: both;
+	margin:0px 250px;
+}
+

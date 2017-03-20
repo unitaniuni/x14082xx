@@ -1,0 +1,55 @@
+@charset "utf-8";
+html,body{
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","Osaka", Verdana, "ＭＳ Ｐゴシック", "MS P Gothic" Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+
+.menu{
+	float:right;
+	margin-right:10px;
+}
+.menu ul{
+	list-style: none;
+}
+
+/*----メールフォーム用レイアウト*/
+form {
+    /* フォームをページの中央に置く */
+    margin: 140px auto;
+    width: 60%;
+    /* フォームの範囲がわかるようにする */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+}
+input, textarea {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1em sans-serif;
+
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 60%;
+
+    box-sizing: border-box;
+
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* アクティブな要素を少し強調する */
+    border-color: #000;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+html,body{
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","Osaka", Verdana, "ＭＳ Ｐゴシック", "MS P Gothic" Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+
+.menu{
+	float:right;
+	margin-right:10px;
+}
+.menu ul{
+	list-style: none;
+}
+
+.menu #m3 a{
+	background:#fff url("../contact/contact.html") top center no-repeat;
+}
+.gallery{
+	float:left;
+}
+.mainimg{
+	
